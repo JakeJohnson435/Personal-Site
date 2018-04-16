@@ -80,3 +80,7 @@ hr {
 p {
     color: #FCFCFC;
 }
+
+.container {
+    position: relative;
+}
