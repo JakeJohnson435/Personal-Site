@@ -7,16 +7,24 @@ $(document).ready(function() {
     $(".links").delay(6700).fadeToggle(1000);
 });
 
-window.onscroll = function() {myFunction()};
+// window.onscroll = function() {myFunction()};
+//
+// var navbar = document.getElementById("nav");
+//
+// var sticky = navbar.offsetTop;
+//
+// function myFunction() {
+//     if (window.pageYOffset >= sticky) {
+//         navbar.classList.add("sticky")
+//     } else {
+//         navbar.classList.remove("sticky");
+//     }
+// }
 
-var navbar = document.getElementById("nav");
-
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-    if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
+$(window).scroll(function(e){
+    if ($(this).scrollTop() > 750) { // choose the value you want.
+        $('#nav').slideDown();
     } else {
-        navbar.classList.remove("sticky");
+        $('#nav').slideUp();
     }
-}
+});
