@@ -149,3 +149,8 @@ li img {
     height: 350px;
     width: 350px;
 }
+
+.ml-auto {
+    left: auto !important;
+    right: 0;
+}
