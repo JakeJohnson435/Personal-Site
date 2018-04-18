@@ -150,7 +150,6 @@ li img {
     width: 350px;
 }
 
-.ml-auto {
-    left: auto !important;
-    right: 0;
+.nav-item{
+    text-align: right;
 }
