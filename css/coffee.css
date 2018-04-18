@@ -57,6 +57,7 @@ body{
 }
 
 .fondo{
+    background-image: url("../img/coffee_vector.png");
     width: 100%;
     height: 200px;
     border-top-left-radius: 12px;
