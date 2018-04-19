@@ -22,12 +22,15 @@ $(document).ready(function() {
 // }
 
 $(window).scroll(function(e){
-    if ($(this).scrollTop() > 750) { // choose the value you want.
-        $('#nav').slideDown();
+    if ($(this).scrollTop() > 750) {
+        $("#nav").slideDown();
     } else {
-        $('#nav').slideUp();
+        $("#nav").slideUp();
     }
 });
+
+
+
 
 var slides = document.querySelectorAll('#slides .slide');
 var currentSlide = 0;
