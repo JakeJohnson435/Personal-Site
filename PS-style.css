@@ -154,6 +154,16 @@ li img {
     text-align: right;
 }
 
+.col-6 {
+    display: inline-block;
+}
+
+.image img {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
 /*.project1, .project2, .project3, .project4 {*/
     /*display: none;*/
 /*}*/
