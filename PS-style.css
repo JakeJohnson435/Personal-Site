@@ -92,6 +92,7 @@ p {
     width: 70%;
     margin: 0 auto;
     text-align: center;
+    padding-top: 3em;
 }
 
 form {
@@ -162,6 +163,10 @@ li img {
     height: 350px;
     width: 350px;
     border-radius: 50%;
+}
+
+.aboutme {
+    padding-top: 3em;
 }
 
 /*.project1, .project2, .project3, .project4 {*/
