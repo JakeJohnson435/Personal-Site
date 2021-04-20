@@ -1,0 +1,8 @@
+name: Personal-Site
+services:
+- dockerfile_path: Dockerfile
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: JakeJohnson435/Personal-Site
+  name: Personal-Site

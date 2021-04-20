@@ -1,0 +1,8 @@
+spec:
+  name: Personal-Site
+  services:
+  - dockerfile_path: Dockerfile
+    git:
+      branch: main
+      repo_clone_url: https://github.com/JakeJohnson435/Personal-Site.git
+    name: Personal-Site
